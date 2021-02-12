@@ -34,7 +34,7 @@ Like this:
 	$gfconf->addComponent(new GridFieldEditSiteTreeItemButton());
 
 ## Requirements
-SilverStripe 3.0 or higher
+SilverStripe 4.0 or higher
 
 ## Pro tip
 
