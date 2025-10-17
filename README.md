@@ -1,6 +1,8 @@
 Sitetree Buttons for GridField
 ==============================
 
+# Not needed anymore, from Silverstripe 4/5 onwards regular Gridfield addnew button works fine
+
 Modifies GridFields & GridField detail forms to use standard page edit form (with versioning, history & settings).
 
 Best used in combination with:
