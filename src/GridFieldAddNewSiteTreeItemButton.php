@@ -25,7 +25,7 @@ namespace Restruct\GridFieldSiteTreeButtons {
             }
 
             $ParentID = Controller::curr()->getRequest()->param('ID');
-            $data = new ArrayData([
+            $data = ArrayData::create([
                 'NewLink'    => Controller::join_links(Director::baseURL(), '/admin/pages/add/AddForm/',
                     '?action_doAdd=1&ParentID=' . $ParentID . '&PageType=' .
                     $gridField->getModelClass() . '&SecurityID=' . $gridField->getForm()->getSecurityToken()->getValue()),

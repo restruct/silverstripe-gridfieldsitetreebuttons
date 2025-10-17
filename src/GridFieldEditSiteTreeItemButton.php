@@ -27,7 +27,7 @@ namespace Restruct\GridFieldSiteTreeButtons {
             if ( !$record->canEdit() ) {
                 return;
             }
-            $data = new ArrayData([
+            $data = ArrayData::create([
                 'Link' => $record->CMSEditLink(),
             ]);
 

@@ -22,15 +22,15 @@ namespace Restruct\GridFieldSiteTreeButtons {
         {
             parent::__construct();
 
-            $this->addComponent(new GridFieldToolbarHeader());
-            $this->addComponent(new GridFieldAddNewSiteTreeItemButton('toolbar-header-right')); // or 'buttons-before-left'
-            $this->addComponent(new GridFieldSortableHeader());
-            $this->addComponent(new GridFieldFilterHeader());
-            $this->addComponent($dataColumns = new GridFieldDataColumns());
-            $this->addComponent($paging = new GridFieldPaginator($itemsPerPage));
+            $this->addComponent(GridFieldToolbarHeader::create());
+            $this->addComponent(GridFieldAddNewSiteTreeItemButton::create('toolbar-header-right')); // or 'buttons-before-left'
+            $this->addComponent(GridFieldSortableHeader::create());
+            $this->addComponent(GridFieldFilterHeader::create());
+            $this->addComponent($dataColumns = GridFieldDataColumns::create());
+            $this->addComponent($paging = GridFieldPaginator::create($itemsPerPage));
             $paging->setThrowExceptionOnBadDataType(true);
-            $this->addComponent(new GridFieldEditSiteTreeItemButton());
-            $this->addComponent(new GridFieldSiteTreeState());
+            $this->addComponent(GridFieldEditSiteTreeItemButton::create());
+            $this->addComponent(GridFieldSiteTreeState::create());
 
 //		$this->addComponent(new GridFieldButtonRow('before'));
 //		$this->addComponent(new GridFieldToolbarHeader());

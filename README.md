@@ -4,10 +4,10 @@ Sitetree Buttons for GridField
 Modifies GridFields & GridField detail forms to use standard page edit form (with versioning, history & settings).
 
 Best used in combination with:
- * [silverstripe-excludechildren module to hide pages from the sitetree](https://github.com/micschk/silverstripe-excludechildren)
+ * [silverstripe-excludechildren module to hide pages from the sitetree](https://github.com/restruct/silverstripe-excludechildren)
 
 Or use/subclass the preconfigured GridfieldPages module, which contains both the excludechildren module and this sitetreebuttons module:
-* [silverstripe-gridfieldpages](https://github.com/micschk/silverstripe-gridfieldpages)
+* [silverstripe-gridfieldpages](https://github.com/restruct/silverstripe-gridfieldpages)
 
 
 ## Screenshot
@@ -39,4 +39,4 @@ SilverStripe 4.0 or higher
 ## Pro tip
 
 Use/subclass the prefabricated GridfieldPages module as a all-in-one base:
-* [silverstripe-gridfieldpages](https://github.com/micschk/silverstripe-gridfieldpages)
+* [silverstripe-gridfieldpages](https://github.com/restruct/silverstripe-gridfieldpages)
